@@ -1,0 +1,95 @@
+body {
+  display: flex;
+  background-image: url(./rick-and-morty-wallpaper-wallpaper-background-027.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.kartice {
+  margin: 15px;
+  text-align: center;
+  // background: rgba(126, 140, 219, 0.5);
+  box-shadow: 0px 0px 31px 6px #eaeaf7;
+  padding: 25px;
+  transition: 0.5s;
+}
+
+.kartice:hover {
+  background-color: rgba(152, 251, 152, 0.699);
+  border-radius: 20px;
+  box-shadow: 0px 0px 31px 6px #ff2424;
+}
+
+.subjectinfo {
+  border-radius: 2px;
+  width: 180px;
+  height: 25px;
+  background-color: rgba(251, 255, 0, 0.801);
+  border: none;
+}
+.subjectinfo:hover {
+  background-color: rgb(243, 0, 231);
+  box-shadow: 0px 0px 40px 18px #ff12f3af;
+  transition: 0.5s;
+  border-radius: 10px;
+}
+
+.bigpic {
+  border: 2px solid rgba(65, 150, 65, 0.699);
+  margin: 50px;
+  height: 400px;
+  box-shadow: 0px 0px 40px 18px #7dff1262;
+  transition: 0.5s;
+}
+.bigpic:hover {
+  box-shadow: 0px 0px 40px 39px #ff1212;
+  border: 2px solid rgb(255, 0, 0);
+}
+
+.kartica {
+  flex-direction: column;
+}
+.ime {
+  margin-left: 50px;
+  font-style: italic;
+  font-size: 40px;
+}
+
+.pol {
+  margin-left: 50px;
+  font-size: 30px;
+}
+
+.vrsta {
+  margin-left: 50px;
+  font-size: 30px;
+}
+
+.status {
+  margin-left: 50px;
+  font-size: 30px;
+}
+
+.buttonVece {
+  background-color: orange;
+  margin: 2px;
+  border: none;
+  width: 30px;
+  height: 30px;
+}
+
+.buttonManje {
+  background-color: orange;
+  margin: 2px;
+  border: none;
+  width: 30px;
+  height: 30px;
+}
